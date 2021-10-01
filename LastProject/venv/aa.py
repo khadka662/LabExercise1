@@ -1,4 +1,6 @@
-list=[1,2,3,4]
-length = (len(list))
-print(length)
-
+i=0
+while i<len(word):
+    letter =word[i]
+    point= letterScore(letter)
+    total = total +point
+    i=i+1

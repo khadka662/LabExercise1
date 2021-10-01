@@ -6,5 +6,5 @@ def factorial(num):
     for i in range(2,num+1):
         fact=fact*i
     print(f'factorial of {num} is {fact}')
-num=5
+num=int(input('enter the number'))
 factorial(num)

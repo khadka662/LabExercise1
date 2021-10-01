@@ -2,13 +2,13 @@ from tkinter import *
 from math import*
 
 root = Tk()
-root.geometry("415x330")
+root.geometry("415x346")
 # defining the title
 root.title("calculator ")
 root.config(background="light blue")
 root.iconbitmap('C:/Users/ASUS/Downloads/a.ico')
 
-entry = Entry(root, width=40,borderwidth=5)
+entry = Entry(root, width=40,borderwidth=15)
 entry.grid(row = 0,column=0, columnspan=3,  padx=10, pady=10)
 
 
@@ -109,4 +109,4 @@ divide.grid(row =4, column=3)
 # start the GUI
 root.mainloop()
 
-mainloop()
+
